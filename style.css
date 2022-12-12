@@ -1,0 +1,12 @@
+button {
+    color: rgb(74, 63, 63);
+    border-radius: 10000000000000px;
+    border-color: peru;
+    padding: 10px;
+    background-color: beige;
+}
+
+.kotik {
+    background-color: #be2a2a;
+    color: aliceblue;
+}
