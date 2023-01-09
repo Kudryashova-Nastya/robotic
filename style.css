@@ -10,3 +10,65 @@ button {
     background-color: #be2a2a;
     color: aliceblue;
 }
+
+.mihail {
+    width: 300px;
+    margin: auto;
+    display: block;
+    transition: 1s;
+    height: 232px;
+}
+
+.mihail:hover {
+    width: 800px;
+    transition: 5s;
+    height: 1000px;
+}
+
+.standoff2 {
+    background-color: #be2a2a;
+    width: 500px;
+    height: 500px;
+    border-radius:125px;
+    position: relative;
+}
+
+.ktoto {
+    height:100px;
+    width: 10px;
+    background-color: white;
+    position: absolute; 
+    top: 125px;
+    transition: 3s;
+}
+
+.k1 {
+    left: 125px;
+}
+
+.k2 {
+    left: 375px;
+}
+
+.standoff2:hover .ktoto {
+    height:50px;
+    width: 50px; 
+    border-radius:125px;
+    transition: 3s;
+}
+
+.vot {
+    height:10px;
+    width: 125px;
+    background-color: white;
+    position: absolute; 
+    bottom: 125px;
+    left: 175px;
+    transition: 3s;
+}
+
+.standoff2:hover .vot {
+    height:50px;
+    border-radius:125px;
+    transition: 3s;
+}
